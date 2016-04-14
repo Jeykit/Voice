@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let appid = "567a9d49"
+        
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        
+        
+        //appid is union,if you not connect to the server,it will start
+        let initString:NSString = "appid=" + appid 
+        
+       IFlySpeechUtility.createUtility(initString as String)
+        
+
         return true
     }
 
