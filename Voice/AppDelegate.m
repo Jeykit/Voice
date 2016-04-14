@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "iflyMSC/IFlyMSC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString * appid = @"567a9d49";
+    
+    
+    //appid is union,if you not connect to the server,it will start
+    NSString * initString = [[NSString alloc] initWithFormat:@"appid=%@",appid];
+    
+    [IFlySpeechUtility createUtility:initString];
     return YES;
 }
 

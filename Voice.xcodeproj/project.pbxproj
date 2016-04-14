@@ -15,6 +15,20 @@
 		7C3199BD1CBE5AB900A9FC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3199BB1CBE5AB900A9FC32 /* LaunchScreen.storyboard */; };
 		7C3199C81CBE5ABC00A9FC32 /* VoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3199C71CBE5ABC00A9FC32 /* VoiceTests.m */; };
 		7C3199D31CBE5ABC00A9FC32 /* VoiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3199D21CBE5ABC00A9FC32 /* VoiceUITests.m */; };
+		7C3199E11CBE5B6000A9FC32 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199E01CBE5B6000A9FC32 /* AVFoundation.framework */; };
+		7C3199E31CBE5B6700A9FC32 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199E21CBE5B6700A9FC32 /* AddressBook.framework */; };
+		7C3199E51CBE5B6D00A9FC32 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199E41CBE5B6D00A9FC32 /* AudioToolbox.framework */; };
+		7C3199E71CBE5B7900A9FC32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199E61CBE5B7900A9FC32 /* CoreGraphics.framework */; };
+		7C3199E91CBE5B9600A9FC32 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199E81CBE5B9600A9FC32 /* CoreLocation.framework */; };
+		7C3199EB1CBE5BA200A9FC32 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199EA1CBE5BA200A9FC32 /* CoreTelephony.framework */; };
+		7C3199ED1CBE5BAA00A9FC32 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199EC1CBE5BAA00A9FC32 /* SystemConfiguration.framework */; };
+		7C3199EF1CBE5BB500A9FC32 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199EE1CBE5BB500A9FC32 /* libz.tbd */; };
+		7C3199F11CBE5BD500A9FC32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199F01CBE5BD500A9FC32 /* QuartzCore.framework */; };
+		7C3199F31CBE5C3800A9FC32 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3199F21CBE5C3800A9FC32 /* iflyMSC.framework */; };
+		7C82606E1CBE63D30057A909 /* UIColor+MUCustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C82606D1CBE63D30057A909 /* UIColor+MUCustomColor.m */; };
+		7C8260721CBE89480057A909 /* MURecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8260711CBE89480057A909 /* MURecognitionViewController.m */; };
+		7C8260751CBE9A780057A909 /* MUSynthesicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8260741CBE9A780057A909 /* MUSynthesicsViewController.m */; };
+		7C8260781CBEA8D30057A909 /* MURecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8260771CBEA8D30057A909 /* MURecorderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,25 @@
 		7C3199CE1CBE5ABC00A9FC32 /* VoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3199D21CBE5ABC00A9FC32 /* VoiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceUITests.m; sourceTree = "<group>"; };
 		7C3199D41CBE5ABC00A9FC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3199E01CBE5B6000A9FC32 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7C3199E21CBE5B6700A9FC32 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7C3199E41CBE5B6D00A9FC32 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7C3199E61CBE5B7900A9FC32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C3199E81CBE5B9600A9FC32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7C3199EA1CBE5BA200A9FC32 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7C3199EC1CBE5BAA00A9FC32 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7C3199EE1CBE5BB500A9FC32 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7C3199F01CBE5BD500A9FC32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7C3199F21CBE5C3800A9FC32 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = Voice/iflyMSC.framework; sourceTree = "<group>"; };
+		7C82606C1CBE63D30057A909 /* UIColor+MUCustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MUCustomColor.h"; sourceTree = "<group>"; };
+		7C82606D1CBE63D30057A909 /* UIColor+MUCustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MUCustomColor.m"; sourceTree = "<group>"; };
+		7C8260701CBE89470057A909 /* MURecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MURecognitionViewController.h; sourceTree = "<group>"; };
+		7C8260711CBE89480057A909 /* MURecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MURecognitionViewController.m; sourceTree = "<group>"; };
+		7C8260731CBE9A780057A909 /* MUSynthesicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSynthesicsViewController.h; sourceTree = "<group>"; };
+		7C8260741CBE9A780057A909 /* MUSynthesicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSynthesicsViewController.m; sourceTree = "<group>"; };
+		7C8260761CBEA8D20057A909 /* MURecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MURecorderViewController.h; sourceTree = "<group>"; };
+		7C8260771CBEA8D30057A909 /* MURecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MURecorderViewController.m; sourceTree = "<group>"; };
+		7C8260791CBEB1CC0057A909 /* voiceHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voiceHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3199F31CBE5C3800A9FC32 /* iflyMSC.framework in Frameworks */,
+				7C3199F11CBE5BD500A9FC32 /* QuartzCore.framework in Frameworks */,
+				7C3199EF1CBE5BB500A9FC32 /* libz.tbd in Frameworks */,
+				7C3199ED1CBE5BAA00A9FC32 /* SystemConfiguration.framework in Frameworks */,
+				7C3199EB1CBE5BA200A9FC32 /* CoreTelephony.framework in Frameworks */,
+				7C3199E91CBE5B9600A9FC32 /* CoreLocation.framework in Frameworks */,
+				7C3199E71CBE5B7900A9FC32 /* CoreGraphics.framework in Frameworks */,
+				7C3199E51CBE5B6D00A9FC32 /* AudioToolbox.framework in Frameworks */,
+				7C3199E31CBE5B6700A9FC32 /* AddressBook.framework in Frameworks */,
+				7C3199E11CBE5B6000A9FC32 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +124,7 @@
 		7C3199A11CBE5AAE00A9FC32 = {
 			isa = PBXGroup;
 			children = (
+				7C3199F41CBE5C4400A9FC32 /* framework */,
 				7C3199AC1CBE5AB300A9FC32 /* Voice */,
 				7C3199C61CBE5ABB00A9FC32 /* VoiceTests */,
 				7C3199D11CBE5ABC00A9FC32 /* VoiceUITests */,
@@ -110,6 +154,14 @@
 				7C3199BB1CBE5AB900A9FC32 /* LaunchScreen.storyboard */,
 				7C3199BE1CBE5AB900A9FC32 /* Info.plist */,
 				7C3199AD1CBE5AB300A9FC32 /* Supporting Files */,
+				7C82606F1CBE64A60057A909 /* category */,
+				7C8260701CBE89470057A909 /* MURecognitionViewController.h */,
+				7C8260711CBE89480057A909 /* MURecognitionViewController.m */,
+				7C8260731CBE9A780057A909 /* MUSynthesicsViewController.h */,
+				7C8260741CBE9A780057A909 /* MUSynthesicsViewController.m */,
+				7C8260761CBEA8D20057A909 /* MURecorderViewController.h */,
+				7C8260771CBEA8D30057A909 /* MURecorderViewController.m */,
+				7C8260791CBEB1CC0057A909 /* voiceHeader.pch */,
 			);
 			path = Voice;
 			sourceTree = "<group>";
@@ -138,6 +190,32 @@
 				7C3199D41CBE5ABC00A9FC32 /* Info.plist */,
 			);
 			path = VoiceUITests;
+			sourceTree = "<group>";
+		};
+		7C3199F41CBE5C4400A9FC32 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				7C3199F21CBE5C3800A9FC32 /* iflyMSC.framework */,
+				7C3199F01CBE5BD500A9FC32 /* QuartzCore.framework */,
+				7C3199EE1CBE5BB500A9FC32 /* libz.tbd */,
+				7C3199EC1CBE5BAA00A9FC32 /* SystemConfiguration.framework */,
+				7C3199EA1CBE5BA200A9FC32 /* CoreTelephony.framework */,
+				7C3199E81CBE5B9600A9FC32 /* CoreLocation.framework */,
+				7C3199E61CBE5B7900A9FC32 /* CoreGraphics.framework */,
+				7C3199E41CBE5B6D00A9FC32 /* AudioToolbox.framework */,
+				7C3199E21CBE5B6700A9FC32 /* AddressBook.framework */,
+				7C3199E01CBE5B6000A9FC32 /* AVFoundation.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		7C82606F1CBE64A60057A909 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				7C82606C1CBE63D30057A909 /* UIColor+MUCustomColor.h */,
+				7C82606D1CBE63D30057A909 /* UIColor+MUCustomColor.m */,
+			);
+			name = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +352,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3199B51CBE5AB500A9FC32 /* ViewController.m in Sources */,
+				7C8260721CBE89480057A909 /* MURecognitionViewController.m in Sources */,
 				7C3199B21CBE5AB500A9FC32 /* AppDelegate.m in Sources */,
+				7C82606E1CBE63D30057A909 /* UIColor+MUCustomColor.m in Sources */,
 				7C3199AF1CBE5AB300A9FC32 /* main.m in Sources */,
+				7C8260781CBEA8D30057A909 /* MURecorderViewController.m in Sources */,
+				7C8260751CBE9A780057A909 /* MUSynthesicsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +500,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Voice",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Voice/voiceHeader.pch;
 				INFOPLIST_FILE = Voice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Adaman.Voice;
@@ -429,6 +518,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Voice",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Voice/voiceHeader.pch;
 				INFOPLIST_FILE = Voice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Adaman.Voice;
@@ -501,6 +597,7 @@
 				7C3199D91CBE5ABC00A9FC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C3199DA1CBE5ABC00A9FC32 /* Build configuration list for PBXNativeTarget "VoiceTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +606,7 @@
 				7C3199DC1CBE5ABC00A9FC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C3199DD1CBE5ABC00A9FC32 /* Build configuration list for PBXNativeTarget "VoiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +615,7 @@
 				7C3199DF1CBE5ABC00A9FC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

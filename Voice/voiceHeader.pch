@@ -1,0 +1,16 @@
+//
+//  voiceHeader.pch
+//  Voice
+//
+//  Created by Adaman on 4/13/16.
+//  Copyright © 2016 Adaman. All rights reserved.
+//
+
+#ifndef voiceHeader_pch
+#define voiceHeader_pch
+
+#import "UIColor+MUCustomColor.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* voiceHeader_pch */
